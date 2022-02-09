@@ -9,10 +9,37 @@
   </head>
   <style>
     body {
-      background-color: white;
-      color: black;
+      background-color: black;
+      color: white;
       margin: 0px;
       font-family: "Open Sans", sans-serif;
+    }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0%;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    .navbar li {
+      float: right;
+    }
+    .navbar li a {
+      display: block;
+      color: rgb(168, 161, 161);
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      color: white;
+    }
+    .navbar .home li a {
+      color: white;
+    }
+    .navbar .home {
+      float: left;
+      padding-left: 25px;
     }
     .heading {
       position: relative;
@@ -28,10 +55,11 @@
       color: rgb(250, 170, 23);
     }
     .content h4 {
-      padding-top: 250px;
+      padding-top: 100px;
       font-size: 20px;
       padding-left: 500px;
     }
+
     .heading h4 {
       color: white;
     }
@@ -42,7 +70,6 @@
     .content {
       background-image: url("https://images.unsplash.com/photo-1595776613215-fe04b78de7d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
       min-height: 550px;
-      margin-top: 275px;
       margin-left: 10px;
       width: 725px;
       background-attachment: fixed;
@@ -53,27 +80,42 @@
     .content-heading h4 {
       font-size: 27px;
       padding-left: 750px;
-      padding-top: 400px;
+      padding-top: 150px;
+    }
+    .git h1 {
+      padding-top: 20px;
+      padding-left: 13px;
+    }
+    .pre-content h1 {
+      padding-left: 13px;
+    }
+    .git img {
+      padding-left: 150px;
     }
   </style>
   <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#" class="active"> My Projects </a></li>
+        <li><a href="#" class="contact"> Contact </a></li>
+        <li><a href="#" class="about"> About</a></li>
+        <li><a href="#" class="home"> Home</a></li>
+        <div class="home">
+          <li><a href="#" class="name"> Kunal Nischal</a></li>
+        </div>
+      </ul>
+    </div>
     <div class="heading">
       <img src="background2.jpg" alt="" />
       <div class="heading-text">
         <h1>
-          I'M KUNAL NISCHAL<br />
-          - WEB DEVELOPER
+          Hi, I'm Kunal Nischal<br />
+          This is my favourite work.
         </h1>
-
-        <h4>
-          <i>
-            I'm an indian web developer focused on crafting clean & user <br />
-            friendly websites. I'm passionate about building excellent software
-            <br />
-            that improves the lives of those around me.</i
-          >
-        </h4>
       </div>
+    </div>
+    <div class="pre-content">
+      <h1>Why I love programming?</h1>
     </div>
 
     <div class="content"></div>
@@ -86,5 +128,30 @@
         <i> - Andrew Hunt</i>
       </h4>
     </div>
+    <br />
+    <br /><br /><br />
+
+    <div class="git">
+      <h1>GitHub Stats</h1>
+      <hr />
+      <p align="left"></p>
+
+      <p>
+        &nbsp;
+
+        <img
+          align="left"
+          width="425px"
+          src="https://github-readme-stats.vercel.app/api?username=kunalnischal7&show_icons=true&hide_border=true&theme=dark"
+          alt="kunalnischal7"
+        />
+        <img
+          width="425px"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=kunalnischal7&hide_border=true&theme=dark"
+          alt="kunalnischal7"
+        />
+      </p>
+    </div>
+    <div class="footer"></div>
   </body>
 </html>
