@@ -5,35 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kunal Nischal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
   </head>
   <style>
     body {
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: black;
+      margin: 0px;
+      font-family: "Open Sans", sans-serif;
+    }
+    .heading {
+      position: relative;
+    }
+    .heading-text {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+      transform: translate(-50%, -50%);
     }
     .heading h1 {
       font-size: 50px;
-      padding-left: 600px;
-      padding-top: 100px;
-      color: rgb(255, 7, 7);
+      color: rgb(250, 170, 23);
     }
     .content h4 {
       font-size: 20px;
       padding-left: 600px;
     }
+    .heading h4 {
+      color: white;
+    }
+    .heading img {
+      width: 100%;
+      height: 600px;
+    }
+    .content img {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      float: left;
+    }
   </style>
   <body>
     <div class="heading">
-      <h1>- I'M KUNAL NISCHAL<br />WEB DEVELOPER</h1>
+      <img src="background2.jpg" alt="" />
+      <div class="heading-text">
+        <h1>
+          I'M KUNAL NISCHAL<br />
+          - WEB DEVELOPER
+        </h1>
+
+        <h4>
+          <i>
+            I'm an indian web developer focused on crafting clean & user <br />
+            friendly websites. I'm passionate about building excellent software
+            <br />
+            that improves the lives of those around me.</i
+          >
+        </h4>
+      </div>
     </div>
     <div class="content">
+      <img src="programming1.jpg" alt="" />
       <h4>
-        <i>
-          I'm an indian web developer focused on crafting clean & user <br />
-          friendly websites. I'm passionate about building excellent software
-          <br />
-          that improves the lives of those around me.</i
-        >
+        "Programming isn't about what you know, it's about what you can figure
+        out." - <i>Chris Pine</i>
       </h4>
     </div>
   </body>
