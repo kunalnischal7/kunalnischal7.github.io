@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .fixed-bg {
+        background-image: url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      In this example, we have created a fixed background image that will
+      disappear slowly on scroll. Scroll the page to see the effect.
+      <strong>Note:</strong> Try to remove the background-attachment property to
+      really understand this example.
+    </p>
+
+    <div class="fixed-bg"></div>
+
+    <div style="height: 800px; background-color: white">
+      This div is only here to enable scrolling (height = 800 pixels).
+    </div>
+  </body>
+</html>
