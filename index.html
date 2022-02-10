@@ -83,10 +83,18 @@
       padding-top: 150px;
       padding-bottom: 40px;
     }
+    .git {
+      padding-top: 200px;
+    }
     .git h1 {
       padding-left: 13px;
+      text-align: center;
+    }
+    .pre-content {
+      padding-top: 200px;
     }
     .pre-content h1 {
+      text-align: center;
       padding-left: 13px;
     }
     .git img {
@@ -94,6 +102,47 @@
     }
     hr {
       width: 98%;
+    }
+    .current {
+      padding-top: 200px;
+      text-align: center;
+    }
+    .current img {
+      width: 70px;
+      height: 75px;
+      padding: 20px;
+    }
+    .footer ul {
+      list-style-type: none;
+      margin: 0%;
+      padding: 0;
+      padding-right: 25px;
+      overflow: hidden;
+      padding-top: 200px;
+      padding-bottom: 20px;
+      background-color: black;
+    }
+    .footer li {
+      float: right;
+    }
+    .footer li a {
+      display: block;
+      color: rgb(168, 161, 161);
+      text-align: center;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      color: white;
+    }
+    .footer .home li a {
+      color: rgb(168, 161, 161);
+    }
+    .footer .home {
+      float: left;
+      padding-left: 25px;
+    }
+    .footer .home a:hover {
+      color: white;
     }
   </style>
   <body>
@@ -131,9 +180,6 @@
         <i> - Andrew Hunt</i>
       </h4>
     </div>
-    <br />
-    <br /><br /><br />
-    <hr />
     <div class="git">
       <h1>GitHub Stats</h1>
       <p align="left"></p>
@@ -154,6 +200,19 @@
         />
       </p>
     </div>
-    <div class="footer"></div>
+    <div class="current">
+      <h1>I'm currently working with</h1>
+      <img src="html.jpg" alt="" />
+      <img src="css.jpg" alt="" />
+      <img src="javascript.jpg" alt="" />
+    </div>
+    <div class="footer">
+      <ul>
+        <li><a href="#" class="active"> Powered By GitHub </a></li>
+        <div class="home">
+          <li><a href="#" class="name"> Privacy Policy</a></li>
+        </div>
+      </ul>
+    </div>
   </body>
 </html>
